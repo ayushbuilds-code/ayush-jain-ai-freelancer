@@ -47,11 +47,11 @@ export const portfolioConfig = {
   ],
   faq: [
     { question: 'How long does it take to build an AI agent?', answer: 'It depends on complexity. Simple chatbots can be ready in 1-2 days, while sophisticated voice agents with integrations might take 7-10 days.' },
-    { question: 'Does the monthly subscription start immediately?', answer: 'No. The standard model is a one-time setup/build period followed by optional monthly support from Month 2.' },
+    { question: 'Does the monthly subscription start immediately?', answer: 'No. The standard model is a one-time setup/build period followed by monthly maintenance and support plan from Month 2.' },
     { question: 'Can I use the AI system without a monthly subscription?', answer: 'Depending on the project, yes. The system can be handed over after the initial setup. However, ongoing maintenance, optimization, troubleshooting, and support are covered by the monthly support plans.' },
     { question: 'Are API and AI usage costs included?', answer: 'Third-party usage costs are generally separate and depend on actual usage unless specifically included in your project proposal.' },
     { question: 'Can I upgrade my monthly plan?', answer: 'Yes. You can move to a higher support level when your requirements grow.' },
-    { question: 'Can I cancel monthly support?', answer: 'Yes. Monthly support is optional and can be cancelled according to the terms agreed in your project proposal or service agreement.' },
+    { question: 'Can I cancel monthly support?', answer: 'The monthly maintenance and support plan is a separate service governed by the terms agreed in your project proposal or service agreement.' },
     { question: 'Will you add new features under monthly support?', answer: 'Minor improvements may be included depending on the plan. Major features, new workflows, or new systems are quoted separately.' },
     { question: 'What are minor changes?', answer: 'Minor changes are small adjustments to an existing system, such as updating prompts, modifying an existing workflow step, changing a message, updating knowledge-base information, or making small configuration adjustments. New systems, major features, or completely new workflows may require a separate quote.' },
     { question: 'Do you offer ongoing support after launch?', answer: 'Yes, I provide monitoring, updates, and improvements to keep your AI systems reliable and useful.' },
