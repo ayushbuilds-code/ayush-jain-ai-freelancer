@@ -40,6 +40,7 @@ body { @apply bg-background text-foreground font-sans; }
 ::selection { background: color-mix(in oklab, var(--primary) 30%, transparent); }
 .eyebrow { @apply font-mono text-xs uppercase tracking-[0.22em] text-primary; }
 .hero-underline { text-decoration: underline; text-decoration-color: var(--primary); text-decoration-thickness: 3px; text-underline-offset: 10px; }
+.field { @apply rounded-lg border border-white/10 bg-background/70 px-4 py-3 text-sm outline-none transition placeholder:text-muted-foreground focus:border-primary; }
 .animate-rise { animation: rise 700ms cubic-bezier(.2,.8,.2,1) both; }
 .workflow-node { animation: nodeIn 700ms cubic-bezier(.2,.8,.2,1) both; }
 .workflow-node:nth-child(1) { animation-delay: 120ms; } .workflow-node:nth-child(2) { animation-delay: 220ms; } .workflow-node:nth-child(3) { animation-delay: 320ms; } .workflow-node:nth-child(4) { animation-delay: 420ms; } .workflow-node:nth-child(5) { animation-delay: 520ms; }

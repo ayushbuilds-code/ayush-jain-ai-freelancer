@@ -1,207 +1,61 @@
 export const portfolioConfig = {
   personal: {
-    name: 'Ayush Dungarwal',
+    name: 'Ayush Jain',
     title: 'AI Freelancer & Automation Specialist',
-    email: 'workayushbusiness@gmail.com',
+    email: 'workayush.business@gmail.com',
     whatsapp: 'https://wa.me/918554938023',
     phone: '8554938023',
   },
-
   hero: {
     badge: 'AI FREELANCER • WORKING WITH CLIENTS WORLDWIDE',
     headline: 'Build Less Manually. Automate More Intelligently.',
-    subheading:
-      'I build AI-powered systems that automate business workflows, engage customers, and save valuable time.',
-    cta1: 'Start a Project',
-    cta2: 'Explore My Work',
-    trust: 'AI Agents • Voice AI • Business Automation',
-    workflowSteps: [
-      'Lead',
-      'AI Agent',
-      'Qualification',
-      'Automation',
-      'Business Action',
-    ],
+    subheading: 'I build AI-powered systems that automate business workflows, engage customers, and save valuable time.',
+    cta1: 'Start a Project', cta2: 'Explore My Work', trust: 'AI Agents • Voice AI • Business Automation',
+    workflowSteps: ['Lead', 'AI Agent', 'Qualification', 'Automation', 'Business Action'],
   },
-
-  trustBar: {
-    text: 'Helping businesses turn repetitive processes into intelligent systems.',
-    capabilities: [
-      'AI Agents',
-      'Voice AI',
-      'Workflow Automation',
-      'API Integrations',
-      'Lead Automation',
-      'Customer Support',
-    ],
-  },
-
+  trustBar: { text: 'Helping businesses turn repetitive processes into intelligent systems.', capabilities: ['AI Agents', 'Voice AI', 'Workflow Automation', 'API Integrations', 'Lead Automation', 'Customer Support'] },
   services: [
-    {
-      id: 'voice-ai',
-      number: '01',
-      title: 'AI Voice Calling Agent',
-      description:
-        'AI-powered voice agents that can make and handle business calls, qualify leads, answer common questions, collect information, and automate follow-ups.',
-      useCases: [
-        'Lead qualification',
-        'Outbound calling',
-        'Appointment booking',
-        'Customer follow-up',
-        'FAQ handling',
-      ],
-      cta: 'Explore Voice AI',
-    },
-    {
-      id: 'chat-ai',
-      number: '02',
-      title: 'AI Chat Agent',
-      description:
-        'Intelligent AI chat agents that communicate with customers, answer questions, qualify prospects, and provide instant assistance across digital channels.',
-      useCases: [
-        'Website chat',
-        'Customer support',
-        'Lead capture',
-        'Product/service inquiries',
-        '24/7 assistance',
-      ],
-      cta: 'Explore AI Chat',
-    },
-    {
-      id: 'automation',
-      number: '03',
-      title: 'Custom Automation',
-      description:
-        'Custom AI-powered workflows that connect the tools your business already uses and eliminate repetitive manual work.',
-      useCases: [
-        'Lead routing',
-        'CRM automation',
-        'Google Sheets workflows',
-        'API integrations',
-        'Notifications',
-        'Data processing',
-        'Multi-step business workflows',
-      ],
-      cta: 'Build My Automation',
-    },
+    { id: 'voice-ai', number: '01', title: 'AI Voice Calling Agent', description: 'AI-powered voice agents that can make and handle business calls, qualify leads, answer common questions, collect information, and automate follow-ups.', useCases: ['Lead qualification', 'Outbound calling', 'Appointment booking', 'Customer follow-up', 'FAQ handling'], cta: 'Explore Voice AI' },
+    { id: 'chat-ai', number: '02', title: 'AI Chat Agent', description: 'Intelligent AI chat agents that communicate with customers, answer questions, qualify prospects, and provide instant assistance across digital channels.', useCases: ['Website chat', 'Customer support', 'Lead capture', 'Product/service inquiries', '24/7 assistance'], cta: 'Explore AI Chat' },
+    { id: 'automation', number: '03', title: 'Custom Automation', description: 'Custom AI-powered workflows that connect the tools your business already uses and eliminate repetitive manual work.', useCases: ['Lead routing', 'CRM automation', 'Google Sheets workflows', 'API integrations', 'Notifications'], cta: 'Build My Automation' },
   ],
-
   pricing: [
-    { title: 'AI Voice Calling Agent', price: 'Starting from ₹15,000', items: ['AI voice agent setup', 'Call flow design', 'Basic integrations', 'Testing', 'Deployment support'] },
-    { title: 'AI Chat Agent', price: 'Starting from ₹10,000', items: ['AI chatbot setup', 'Knowledge base configuration', 'Conversation design', 'Basic integration', 'Deployment support'] },
-    { title: 'Custom Automation', price: 'Starting from ₹12,000', items: ['Workflow design', 'Automation setup', 'API integrations', 'Testing', 'Deployment support'] },
+    { title: 'AI Voice Calling Agent', setup: '₹15,000+', monthly: '₹4,999/month', setupItems: ['AI voice agent configuration', 'Conversation flow design', 'Initial prompt configuration', 'Basic integration', 'Testing', 'Deployment'], monthlyItems: ['AI agent monitoring', 'Prompt optimization', 'Call-flow improvements', 'Bug fixes', 'Minor workflow changes', 'Basic integration maintenance', 'Monthly performance review', 'Technical support'] },
+    { title: 'AI Chat Agent', setup: '₹10,000+', monthly: '₹2,999/month', setupItems: ['AI chat agent configuration', 'Conversation design', 'Knowledge-base setup', 'Basic integration', 'Testing', 'Deployment'], monthlyItems: ['Knowledge-base updates', 'Prompt optimization', 'AI response improvements', 'Bug fixes', 'Minor conversation-flow changes', 'Integration maintenance', 'Monitoring', 'Technical support'] },
+    { title: 'Custom Automation', setup: '₹12,000+', monthly: '₹3,999/month', setupItems: ['Workflow planning', 'Automation development', 'API/webhook integration', 'Testing', 'Deployment'], monthlyItems: ['Workflow monitoring', 'Bug fixes', 'API/integration maintenance', 'Minor workflow modifications', 'Error monitoring', 'Performance checks', 'Technical support'] },
   ],
-
+  supportPlans: [
+    { name: 'Essential', price: '₹2,999/month', bestFor: 'Simple AI systems that need reliable maintenance.', features: ['Basic monitoring', 'Bug fixes', 'Minor updates', 'Prompt adjustments', 'Basic technical support', 'Integration checks'] },
+    { name: 'Growth', price: '₹5,999/month', bestFor: 'Businesses actively improving their AI workflows.', features: ['Everything in Essential', 'Advanced prompt optimization', 'Workflow improvements', 'Knowledge-base updates', 'Regular performance review', 'Minor feature improvements', 'Priority support'] },
+    { name: 'Scale', price: '₹9,999/month', bestFor: 'Businesses relying heavily on AI automation.', features: ['Everything in Growth', 'Priority technical support', 'More frequent optimization', 'Advanced workflow improvements', 'Integration maintenance', 'Ongoing AI performance review', 'Larger allowance for minor changes'] },
+  ],
+  comparison: [
+    ['Monitoring', true, true, true], ['Bug Fixes', true, true, true], ['Prompt Optimization', 'Basic', true, true], ['Knowledge Base Updates', false, true, true], ['Workflow Changes', 'Minor', 'Minor', 'Advanced'], ['Integration Maintenance', 'Basic', true, true], ['Performance Review', false, true, true], ['Technical Support', true, true, true], ['Priority Support', false, true, true], ['Advanced Optimization', false, false, true],
+  ],
   projects: [
-    {
-      id: 1,
-      title: 'AI Lead Qualification System',
-      description:
-        'Built an intelligent lead qualification system that automatically screens prospects and routes them based on fit.',
-      category: 'AI Agent',
-      image:
-        'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
-    },
-    {
-      id: 2,
-      title: 'Voice Agent for Appointment Booking',
-      description:
-        'Developed a voice AI agent that handles appointment scheduling, cancellations, and customer follow-ups.',
-      category: 'Voice AI',
-      image:
-        'https://images.unsplash.com/photo-1560264357-8d9766a1b343?w=600&h=400&fit=crop',
-    },
-    {
-      id: 3,
-      title: 'Customer Support Automation',
-      description:
-        'Created a custom workflow that unified customer support requests across multiple platforms into a single CRM.',
-      category: 'Automation',
-      image:
-        'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
-    },
-    {
-      id: 4,
-      title: 'Business Process Automation',
-      description:
-        'Automated repetitive business processes, reducing manual work and improving accuracy across departments.',
-      category: 'Automation',
-      image:
-        'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
-    },
+    { id: 1, title: 'AI Lead Qualification System', description: 'Built an intelligent lead qualification system that automatically screens prospects and routes them based on fit.', category: 'AI Agent', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop' },
+    { id: 2, title: 'Voice Agent for Appointment Booking', description: 'Developed a voice AI agent that handles appointment scheduling, cancellations, and customer follow-ups.', category: 'Voice AI', image: 'https://images.unsplash.com/photo-1560264357-8d9766a1b343?w=600&h=400&fit=crop' },
+    { id: 3, title: 'Customer Support Automation', description: 'Created a custom workflow that unified customer support requests across multiple platforms into a single CRM.', category: 'Automation', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop' },
+    { id: 4, title: 'Business Process Automation', description: 'Automated repetitive business processes, reducing manual work and improving accuracy across departments.', category: 'Automation', image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop' },
   ],
-
   process: [
-    {
-      step: '01',
-      title: 'Discovery & Planning',
-      description:
-        'Understand your business goals, current workflows, and the specific pain points you want to solve.',
-    },
-    {
-      step: '02',
-      title: 'System Design',
-      description:
-        'Design the AI agent or automation workflow tailored to your unique business requirements.',
-    },
-    {
-      step: '03',
-      title: 'Development & Integration',
-      description:
-        'Build and integrate the solution with your existing tools and systems.',
-    },
-    {
-      step: '04',
-      title: 'Testing & Optimization',
-      description:
-        'Test thoroughly and optimize performance, accuracy, and user experience.',
-    },
-    {
-      step: '05',
-      title: 'Launch & Support',
-      description:
-        'Deploy the solution and provide ongoing support and improvements based on performance.',
-    },
+    { step: '01', title: 'Discovery & Planning', description: 'Understand your business goals, current workflows, and the specific pain points you want to solve.' },
+    { step: '02', title: 'System Design', description: 'Design the AI agent or automation workflow tailored to your unique business requirements.' },
+    { step: '03', title: 'Development & Integration', description: 'Build and integrate the solution with your existing tools and systems.' },
+    { step: '04', title: 'Testing & Optimization', description: 'Test thoroughly and optimize performance, accuracy, and user experience.' },
+    { step: '05', title: 'Launch & Support', description: 'Deploy the solution and provide ongoing support and improvements based on performance.' },
   ],
-
   faq: [
-    {
-      question: 'How long does it take to build an AI agent?',
-      answer:
-        'It depends on complexity. Simple chatbots can be ready in 1-2 weeks, while sophisticated voice agents with integrations might take 3-6 weeks.',
-    },
-    {
-      question: 'Do you offer ongoing support after launch?',
-      answer:
-        'Yes, I provide comprehensive support including monitoring, updates, and improvements to keep your AI systems performing optimally.',
-    },
-    {
-      question: 'Can your AI agents integrate with my existing tools?',
-      answer:
-        'Absolutely. I specialize in building integrations with CRMs, helpdesk tools, Google Sheets, and virtually any API-enabled platform.',
-    },
-    {
-      question: 'What makes your AI agents different?',
-      answer:
-        'I focus on practical, business-focused AI solutions designed to solve real problems. Every agent is customized for your specific use case, not a generic template.',
-    },
-    {
-      question: 'How do you determine pricing?',
-      answer:
-        'Pricing is based on the complexity of the solution, integrations required, and ongoing support needs. I provide custom quotes after understanding your project.',
-    },
-    {
-      question: 'Do you work with international clients?',
-      answer:
-        'Yes, I work with clients worldwide. We communicate via email, video calls, and messaging platforms to ensure smooth collaboration.',
-    },
+    { question: 'How long does it take to build an AI agent?', answer: 'It depends on complexity. Simple chatbots can be ready in 1-2 days, while sophisticated voice agents with integrations might take 7-10 days.' },
+    { question: 'Does the monthly subscription start immediately?', answer: 'No. The standard model is a one-time setup/build period followed by optional monthly support from Month 2.' },
+    { question: 'Can I use the AI system without a monthly subscription?', answer: 'Depending on the project, yes. The system can be handed over after the initial setup. However, ongoing maintenance, optimization, troubleshooting, and support are covered by the monthly support plans.' },
+    { question: 'Are API and AI usage costs included?', answer: 'Third-party usage costs are generally separate and depend on actual usage unless specifically included in your project proposal.' },
+    { question: 'Can I upgrade my monthly plan?', answer: 'Yes. You can move to a higher support level when your requirements grow.' },
+    { question: 'Can I cancel monthly support?', answer: 'Yes. Monthly support is optional and can be cancelled according to the terms agreed in your project proposal or service agreement.' },
+    { question: 'Will you add new features under monthly support?', answer: 'Minor improvements may be included depending on the plan. Major features, new workflows, or new systems are quoted separately.' },
+    { question: 'What are minor changes?', answer: 'Minor changes are small adjustments to an existing system, such as updating prompts, modifying an existing workflow step, changing a message, updating knowledge-base information, or making small configuration adjustments. New systems, major features, or completely new workflows may require a separate quote.' },
+    { question: 'Do you offer ongoing support after launch?', answer: 'Yes, I provide monitoring, updates, and improvements to keep your AI systems reliable and useful.' },
+    { question: 'Can your AI agents integrate with my existing tools?', answer: 'Absolutely. I specialize in building integrations with CRMs, helpdesk tools, Google Sheets, and API-enabled platforms.' },
   ],
-
-  contact: {
-    heading: 'Ready to Automate?',
-    subheading: 'Let\'s discuss how AI can transform your business.',
-    primaryCta: 'Start on WhatsApp',
-    secondaryCta: 'Send Email',
-    successMessage: 'Thanks for reaching out! I\'ll be in touch within 24 hours.',
-  },
-}
+  contact: { heading: 'Ready to Automate?', subheading: 'Let\'s discuss how AI can transform your business.', primaryCta: 'Start on WhatsApp', secondaryCta: 'Send Email', successMessage: 'Thanks for reaching out! I\'ll be in touch within 1 hour.' },
+} as const

@@ -8,11 +8,11 @@ const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ayushdungarwal.com'),
-  title: 'Ayush Dungarwal | AI Freelancer & Automation Specialist',
-  description: 'Ayush Dungarwal builds practical AI systems that automate business processes, engage customers, and help businesses scale.',
+  title: 'Ayush Jain | AI Freelancer & Automation Specialist',
+  description: 'Ayush Jain builds practical AI systems that automate business processes, engage customers, and help businesses scale.',
   generator: 'v0.app',
   openGraph: {
-    title: 'Ayush Dungarwal | AI Freelancer & Automation Specialist',
+    title: 'Ayush Jain | AI Freelancer & Automation Specialist',
     description: 'Practical AI systems for business automation, customer engagement, and intelligent workflows.',
     type: 'website',
   },

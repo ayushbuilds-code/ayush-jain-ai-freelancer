@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     const honeypot = typeof body.website === 'string' ? body.website.trim() : ''
 
     if (honeypot) return NextResponse.json({ ok: true })
-    if (name.length < 2 || name.length > 100 || !emailPattern.test(email) || email.length > 254 || whatsapp.length < 7 || whatsapp.length > 30 || !['AI Voice Calling Agent', 'AI Chat Agent', 'Custom Automation', 'Not Sure Yet'].includes(service) || message.length < 10 || message.length > 4000) {
+    if (name.length < 2 || name.length > 100 || !emailPattern.test(email) || email.length > 254 || whatsapp.length < 7 || whatsapp.length > 30 || !['AI Voice Calling Agent', 'AI Chat Agent', 'Custom Automation', 'Monthly AI Maintenance & Support', 'Not Sure Yet'].includes(service) || message.length < 10 || message.length > 4000) {
       return NextResponse.json({ error: 'Please check your details and message.' }, { status: 400 })
     }
 
